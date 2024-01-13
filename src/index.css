@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url('Background_interior_web.png') center center fixed; /* Replace 'your-background-image.jpg' with your actual image path or URL */
+  background-size: cover;
+}
+
+.button {
+  padding: 5px 15px; /* Adjusted padding for 1.5 times bigger buttons */
+  font-size: 1.5rem; /* Adjusted font size for 1.5 times bigger text */
+  background-color: #000; /* Black background color */
+  color: #fff; /* White text color */
+  text-decoration: none;
+  border: 2px solid #fff; /* White border */
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 1000px; /* Add margin to the top */
+}
+
+#login-button {
+  order: 1;
+  
+}
+
+#register-button {
+  order: 2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

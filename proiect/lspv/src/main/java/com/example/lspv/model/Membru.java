@@ -29,15 +29,16 @@ public class Membru {
     @Column(nullable = true)
     private Date data_nastere;
 
-    private Date data_aderare;
+    private int an_aderare;
 
     @Column(nullable = true)
     private String parola;
+
+    private boolean account;
 
     private boolean mentor;
 
     private boolean coordonator;
 
-    @Column(nullable = true)
     private Double puncte;
 }
